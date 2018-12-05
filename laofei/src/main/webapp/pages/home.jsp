@@ -5,9 +5,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+<link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+<style>
+</style>
+
 </head>
 <body>
-    hello world!!!
+    
+    <%@include file="/pages/common/header.jsp" %>
+    <%@include file="/pages/common/footer.jsp" %>
  
 </body>
 </html>
