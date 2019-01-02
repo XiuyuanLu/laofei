@@ -11,7 +11,7 @@
 
 <style>
 
-#spot-home {
+#spot-product {
 	display: block;
 }
 

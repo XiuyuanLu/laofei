@@ -29,11 +29,11 @@ body{
 .head .menu{
 	float: left; 
 	position: relative;
-	left: 25%;
+	left: 15%;
 	padding: 0;
 	margin: 0;
 	height: 100%;
-	width: 50%;
+	width: 70%;
 }
 
 .head .menu ul{
@@ -72,6 +72,10 @@ body{
 	padding: 0;
 	margin: 0;
 	text-align: center;
+}
+
+.head .menu .item-box .item:hover {
+	cursor: pointer;	
 }
 
 .head .menu .item-box .item .text{
@@ -123,8 +127,37 @@ body{
 
 .footer{
 	width: 100%;
-	height: 100px;
+	height: 300px;
 	background: #2c2c2c;
+	position: relative;
+	bottom: 0;
+}
+
+.footer .info {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	left: 25%;
+}
+
+.footer .info .wechat {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.footer .info .wechat img {
+	height: 120px;
+	position: relative;
+	top: 20%;
+}
+
+.footer .info .record {
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
 }
 
 .footer .copyright{
